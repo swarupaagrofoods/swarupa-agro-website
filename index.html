@@ -2,169 +2,139 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Dehydrated Vegetable Powder Manufacturer | Swarupa Agro Food Processing</title>
 
-  <!-- SEO Meta -->
-  <meta name="description" content="Swarupa Agro Food Processing is an Indian manufacturer and bulk supplier of dehydrated vegetable powders including spinach, moringa, onion, garlic, and beetroot for B2B buyers and exporters worldwide.">
+  <!-- SEO -->
+  <meta name="description" content="Manufacturer and bulk supplier of dehydrated vegetable powders – spinach, moringa, onion, garlic, ginger. Export quality, B2B supply from India.">
 
-  <!-- Tailwind CSS CDN -->
+  <!-- Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="bg-white text-gray-800">
+<body class="text-gray-800">
 
-<!-- HEADER -->
-<header class="bg-green-700 text-white">
- <div class="max-w-7xl mx-auto px-6 py-3 flex justify-between items-center">
+<!-- HEADER / NAVBAR -->
+<header class="sticky top-0 z-50 bg-green-700 text-white">
+  <div class="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
+
+    <!-- Logo -->
     <div class="flex items-center gap-3">
+      <img src="images/logo.png" alt="Swarupa Agro Food Processing" class="h-14 md:h-20 w-auto">
+      <span class="font-bold text-lg md:text-xl leading-tight">
+        Swarupa Agro Food<br class="hidden sm:block">Processing
+      </span>
+    </div>
 
-<img 
-  src="./logo.png?v=3"
-  alt="Swarupa Agro Food Processing Logo"
-  style="height:75px; width:auto;"
-/>
-      
-  <span class="text-xl font-bold leading-tight">
-    Swarupa Agro Food<br class="hidden sm:block">
-    Processing
-  </span>
-</div>
+    <!-- Desktop Menu -->
+    <nav class="hidden md:flex gap-6 font-semibold">
+      <a href="index.html" class="hover:underline">Home</a>
+      <a href="about.html" class="hover:underline">About</a>
+      <a href="products.html" class="hover:underline">Products</a>
+      <a href="contact.html" class="hover:underline">Contact</a>
+    </nav>
 
-    <a href="#contact" class="bg-white text-green-700 px-4 py-2 rounded font-semibold">
+    <!-- CTA -->
+    <a href="contact.html" class="bg-white text-green-700 px-4 py-2 rounded font-semibold">
       Get Quote
     </a>
   </div>
 </header>
 
-<!-- PREMIUM HERO SECTION -->
+<!-- HERO SECTION -->
 <section class="bg-gradient-to-r from-green-800 to-green-600 text-white">
-  <div class="max-w-7xl mx-auto px-6 py-24 grid md:grid-cols-2 gap-10 items-center">
-    
-    <div>
-      <h2 class="text-5xl font-extrabold leading-tight mb-6">
-        Trusted Manufacturer of <br>
-        Dehydrated Vegetable Powders
-      </h2>
+  <div class="max-w-7xl mx-auto px-6 py-24 grid md:grid-cols-2 gap-12 items-center">
 
+    <div>
+      <h1 class="text-4xl md:text-5xl font-extrabold mb-6">
+        Manufacturer of Dehydrated<br>Vegetable Powders
+      </h1>
       <p class="text-lg mb-6 opacity-90">
-        Swarupa Agro Food Processing is an Indian manufacturer and bulk supplier of export-grade dehydrated vegetable powders, supplying food brands, exporters, and industrial buyers worldwide.
+        Export-grade dehydrated spinach, moringa, onion, garlic and ginger powders.
+        Supplying food brands, exporters and bulk buyers worldwide.
       </p>
 
-      <div class="flex flex-wrap gap-4 mb-8">
+      <div class="flex gap-4 mb-8 flex-wrap">
         <span class="bg-white text-green-700 px-4 py-2 rounded font-semibold">Manufacturer Direct</span>
         <span class="bg-white text-green-700 px-4 py-2 rounded font-semibold">Bulk Supply</span>
         <span class="bg-white text-green-700 px-4 py-2 rounded font-semibold">Export Ready</span>
-        <span class="bg-white text-green-700 px-4 py-2 rounded font-semibold">Quality Focused</span>
       </div>
 
-      <a href="#contact" class="bg-white text-green-800 px-8 py-4 rounded text-lg font-bold">
-        Request Bulk Quote
+      <a href="products.html" class="bg-white text-green-800 px-8 py-4 rounded font-bold">
+        View Products
       </a>
     </div>
 
-    <div class="hidden md:block">
-      <div class="bg-white/10 border border-white/20 rounded-xl p-8">
-        <p class="text-xl font-semibold mb-4">Product Categories</p>
-        <ul class="space-y-3">
-          <li>✔ Spinach Powder</li>
-          <li>✔ Moringa Leaf Powder</li>
-          <li>✔ Onion Powder</li>
-          <li>✔ Garlic Powder</li>
-          <li>✔ Customized Dehydrated Vegetables</li>
-        </ul>
-      </div>
+    <!-- Slider (simple static for now) -->
+    <div class="grid grid-cols-2 gap-4">
+      <img src="images/spinach.jpg" class="rounded shadow">
+      <img src="images/moringa.jpg" class="rounded shadow">
+      <img src="images/ginger.jpg" class="rounded shadow">
+      <img src="images/garlic.jpg" class="rounded shadow">
     </div>
 
   </div>
 </section>
-  
-<!-- PREMIUM PRODUCTS SECTION -->
+
+<!-- PRODUCTS PREVIEW -->
 <section class="max-w-7xl mx-auto px-6 py-16">
-  <h3 class="text-4xl font-extrabold text-center mb-12">Our Export-Grade Products</h3>
+  <h2 class="text-4xl font-extrabold text-center mb-12">Our Products</h2>
 
   <div class="grid md:grid-cols-3 gap-8">
-    <div class="bg-white border shadow-lg rounded-lg p-6 hover:scale-105 transform transition duration-300">
-      <h4 class="font-bold text-2xl mb-2">Spinach Powder</h4>
-      <p class="mb-4">Fine quality dehydrated spinach powder for food, nutraceuticals, and industrial applications.</p>
-      <span class="text-green-700 font-semibold">Export Ready</span>
-    </div>
 
-    <div class="bg-white border shadow-lg rounded-lg p-6 hover:scale-105 transform transition duration-300">
-      <h4 class="font-bold text-2xl mb-2">Moringa Leaf Powder</h4>
-      <p class="mb-4">Nutrient-rich moringa powder processed under controlled, hygienic conditions.</p>
-      <span class="text-green-700 font-semibold">Bulk Supply</span>
-    </div>
+    <!-- Product Card -->
+    <a href="product-spinach.html" class="border rounded-lg shadow hover:scale-105 transition p-6">
+      <img src="images/spinach.jpg" class="mb-4 rounded">
+      <h3 class="font-bold text-xl mb-2">Spinach Powder</h3>
+      <p class="text-sm text-gray-600">Food grade dehydrated spinach powder.</p>
+    </a>
 
-    <div class="bg-white border shadow-lg rounded-lg p-6 hover:scale-105 transform transition duration-300">
-      <h4 class="font-bold text-2xl mb-2">Onion & Garlic Powder</h4>
-      <p class="mb-4">Consistent flavor, low moisture, perfect for B2B food manufacturing.</p>
-      <span class="text-green-700 font-semibold">Manufacturer Direct</span>
-    </div>
+    <a href="product-moringa.html" class="border rounded-lg shadow hover:scale-105 transition p-6">
+      <img src="images/moringa.jpg" class="mb-4 rounded">
+      <h3 class="font-bold text-xl mb-2">Moringa Leaf Powder</h3>
+      <p class="text-sm text-gray-600">High nutrition export quality moringa.</p>
+    </a>
+
+    <a href="product-ginger.html" class="border rounded-lg shadow hover:scale-105 transition p-6">
+      <img src="images/ginger.jpg" class="mb-4 rounded">
+      <h3 class="font-bold text-xl mb-2">Ginger Powder</h3>
+      <p class="text-sm text-gray-600">Strong aroma & low moisture content.</p>
+    </a>
+
   </div>
 </section>
 
-<!-- PREMIUM WHY US SECTION -->
+<!-- TESTIMONIALS -->
 <section class="bg-green-50 py-16">
   <div class="max-w-7xl mx-auto px-6 text-center">
-    <h3 class="text-4xl font-extrabold mb-10">Why Partner With Us</h3>
+    <h2 class="text-3xl font-extrabold mb-10">What Buyers Say</h2>
 
-    <div class="grid md:grid-cols-4 gap-8">
-      <div class="p-4 bg-white rounded shadow hover:scale-105 transform transition duration-300">
-        <p class="text-xl font-semibold mb-2">Manufacturer Direct</p>
-        <p class="text-gray-600 text-sm">No middlemen, consistent quality from our factory.</p>
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="bg-white p-6 rounded shadow">
+        <p class="text-sm italic">“Consistent quality and timely delivery.”</p>
+        <strong class="block mt-4">Food Exporter – UAE</strong>
       </div>
-
-      <div class="p-4 bg-white rounded shadow hover:scale-105 transform transition duration-300">
-        <p class="text-xl font-semibold mb-2">Bulk & Export Supply</p>
-        <p class="text-gray-600 text-sm">Capable of fulfilling large orders for global buyers.</p>
+      <div class="bg-white p-6 rounded shadow">
+        <p class="text-sm italic">“Reliable bulk supplier for moringa powder.”</p>
+        <strong class="block mt-4">Nutraceutical Brand – India</strong>
       </div>
-
-      <div class="p-4 bg-white rounded shadow hover:scale-105 transform transition duration-300">
-        <p class="text-xl font-semibold mb-2">Quality Focused</p>
-        <p class="text-gray-600 text-sm">FSSAI certified, tested for purity and consistency.</p>
-      </div>
-
-      <div class="p-4 bg-white rounded shadow hover:scale-105 transform transition duration-300">
-        <p class="text-xl font-semibold mb-2">Competitive Pricing</p>
-        <p class="text-gray-600 text-sm">Transparent pricing for exporters and bulk buyers.</p>
+      <div class="bg-white p-6 rounded shadow">
+        <p class="text-sm italic">“Good pricing and export-ready packing.”</p>
+        <strong class="block mt-4">Importer – Europe</strong>
       </div>
     </div>
-  </div>
-</section>
-
-<!-- CONTACT -->
-<section id="contact" class="max-w-7xl mx-auto px-6 py-16">
-  <h3 class="text-3xl font-bold text-center mb-8">Contact Us</h3>
-
-  <div class="max-w-xl mx-auto text-center">
-    <p class="mb-4"><strong>Company:</strong> Swarupa Agro Food Processing</p>
-    <p class="mb-2"><strong>Location:</strong> Nashik, Maharashtra, India</p>
-    <p class="mb-2"><strong>Email:</strong> swarupafoodprocessing@gmail.com</p>
-    <p class="mb-6"><strong>WhatsApp:</strong> +91 95271 85004</p>
-
-    <iframe 
-  src="https://docs.google.com/forms/d/e/1FAIpQLSe1h0OeNWbz4GUv4PpDEJzHRtxLQ_N1iiPfciknRo0gWKgZdA/viewform?embedded=true" 
-  width="100%" 
-  height="800" 
-  frameborder="0" 
-  marginheight="0" 
-  marginwidth="0" 
-  class="rounded-lg"
->
-  Loading…
-</iframe>
-    
-    <p class="text-sm text-gray-600">
-      For bulk orders, export inquiries, and long-term supply partnerships, please contact us.
-    </p>
   </div>
 </section>
 
 <!-- FOOTER -->
-<footer class="bg-green-700 text-white text-center py-4">
-  © 2025 Swarupa Agro Food Processing. All Rights Reserved.
+<footer class="bg-green-700 text-white text-center py-6">
+  © 2025 Swarupa Agro Food Processing · All Rights Reserved
 </footer>
+
+<!-- FLOATING WHATSAPP -->
+<a href="https://wa.me/919527185004" class="fixed bottom-6 right-6 bg-green-600 text-white px-4 py-3 rounded-full shadow-lg">
+  WhatsApp
+</a>
 
 </body>
 </html>
